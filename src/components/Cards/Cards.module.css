@@ -1,0 +1,32 @@
+.container {
+  margin: 5rem 0;
+}
+
+.card {
+  margin: 0 2% !important;
+}
+
+.infected {
+  border-bottom: 10px solid rgba(0, 0, 255, 0.5);
+  border-radius: 50px !important;
+  background: linear-gradient(145deg, #eaeaff, #c5c5e6) !important;
+  box-shadow: 20px 20px 60px #babad9, -20px -20px 60px #fcfcff !important;
+}
+.recovered {
+  border-bottom: 10px solid rgba(0, 255, 0, 0.5);
+  border-radius: 50px !important;
+  background: linear-gradient(145deg, #ebffea, #c6e6c5) !important;
+  box-shadow: 20px 20px 60px #bbd9ba, -20px -20px 60px #fdfffc !important;
+}
+.deaths {
+  border-bottom: 10px solid rgba(255, 0, 0, 0.5);
+  border-radius: 50px !important;
+  background: linear-gradient(145deg, #fff0f0, #e6caca) !important;
+  box-shadow: 20px 20px 60px #d9bebe, -20px -20px 60px #ffffff !important;
+}
+
+@media (max-width: 770px) {
+  .card {
+    margin: 5% 0 !important;
+  }
+}
